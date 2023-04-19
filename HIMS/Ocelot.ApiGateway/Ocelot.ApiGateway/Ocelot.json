@@ -1,0 +1,371 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/User/GetAllUsersAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8855
+        }
+      ],
+      "UpstreamPathTemplate": "/Users/User/UserAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/GetAllDoctorNameAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8855
+        }
+      ],
+      "UpstreamPathTemplate": "/Users/User/GetAllDoctorNameAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/GetAllPatientFirstNameAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8855
+        }
+      ],
+      "UpstreamPathTemplate": "/Users/User/GetAllPatientFirstNameAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/GetAllPatientLastNameAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8855
+        }
+      ],
+      "UpstreamPathTemplate": "/Users/User/GetAllPatientLastNameAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/GetPatientDetailsAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8855
+        }
+      ],
+      "UpstreamPathTemplate": "/Users/User/GetPatientDetailsAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/GetPatientAilmentDetailsAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8855
+        }
+      ],
+      "UpstreamPathTemplate": "/Users/User/GetPatientAilmentDetailsAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/GetAllSymptomsAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8855
+        }
+      ],
+      "UpstreamPathTemplate": "/Users/User/GetAllSymptomsAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/AddUpdatePatientAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8855
+        }
+      ],
+      "UpstreamPathTemplate": "/Users/User/AddUpdatePatientAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/DeletePatientSymptomAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8855
+        }
+      ],
+      "UpstreamPathTemplate": "/Users/User/DeletePatientSymptomAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/GetPatientAndDoctorDetailsAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8855
+        }
+      ],
+      "UpstreamPathTemplate": "/Users/User/GetPatientAndDoctorDetailsAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Region/GetAllCountry",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8855
+        }
+      ],
+      "UpstreamPathTemplate": "/Users/Region/GetAllCountry",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Region/GetCountryByNameAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8855
+        }
+      ],
+      "UpstreamPathTemplate": "/Users/Region/GetCountryByNameAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Region/GetAllStateByCountryAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8855
+        }
+      ],
+      "UpstreamPathTemplate": "/Users/Region/GetAllStateByCountryAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Region/GetStateByStateIdAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8855
+        }
+      ],
+      "UpstreamPathTemplate": "/Users/Region/GetStateByStateIdAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Region/GetStateByNameAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8855
+        }
+      ],
+      "UpstreamPathTemplate": "/Users/Region/GetStateByNameAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Region/GetCityByStateAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8855
+        }
+      ],
+      "UpstreamPathTemplate": "/Users/Region/GetCityByStateAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Region/GetCityByCityIdAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8855
+        }
+      ],
+      "UpstreamPathTemplate": "/Users/Region/GetCityByCityIdAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Region/GetCityByNameAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8855
+        }
+      ],
+      "UpstreamPathTemplate": "/Users/Region/GetCityByNameAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST", "DELETE" ]
+    },
+
+
+    {
+      "DownstreamPathTemplate": "/api/Authentication/UserLoginAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8856
+        }
+      ],
+      "UpstreamPathTemplate": "/Authentication/Authentication/UserLoginAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Authentication/GenerateTokenFromRefreshTokenAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8856
+        }
+      ],
+      "UpstreamPathTemplate": "/Authentication/Authentication/GenerateTokenFromRefreshTokenAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Appointment/GetAllAppointmentAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8857
+        }
+      ],
+      "UpstreamPathTemplate": "/Appointment/Appointment/GetAllAppointmentAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Appointment/AddAppointmentAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8857
+        }
+      ],
+      "UpstreamPathTemplate": "/Appointment/Appointment/AddAppointmentAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Diagnosis/GetAllMedicineAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8857
+        }
+      ],
+      "UpstreamPathTemplate": "/Appointment/Diagnosis/GetAllMedicineAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Diagnosis/GetAllProblemAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8857
+        }
+      ],
+      "UpstreamPathTemplate": "/Appointment/Diagnosis/GetAllProblemAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Diagnosis/GetAllDiagnosisAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8857
+        }
+      ],
+      "UpstreamPathTemplate": "/Appointment/Diagnosis/GetAllDiagnosisAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Diagnosis/GetAllMedicationByAilmentAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8857
+        }
+      ],
+      "UpstreamPathTemplate": "/Appointment/Diagnosis/GetAllMedicationByAilmentAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Diagnosis/GetSummaryByAilmentAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8857
+        }
+      ],
+      "UpstreamPathTemplate": "/Appointment/Diagnosis/GetSummaryByAilmentAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Diagnosis/AddProblemAndDiagnosisAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8857
+        }
+      ],
+      "UpstreamPathTemplate": "/Appointment/Diagnosis/AddProblemAndDiagnosisAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Diagnosis/AddUpdateMedicationAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8857
+        }
+      ],
+      "UpstreamPathTemplate": "/Appointment/Diagnosis/AddUpdateMedicationAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Diagnosis/DeleteMedicationAsync",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "192.168.1.199",
+          "Port": 8857
+        }
+      ],
+      "UpstreamPathTemplate": "/Appointment/Diagnosis/DeleteMedicationAsync",
+      "UpstreamHttpMethod": [ "GET", "PUT", "POST" ]
+    }
+  ]
+}
