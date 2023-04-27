@@ -1,0 +1,10 @@
+Read Me
+
+======================
+1. Scaffold-DbContext to update DB models from latest DB
+
+Scaffold-DbContext "Server=(LocalDB)\MSSQLLocalDB;Database=JWTokenDB;Trusted_Connection=False;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir DTO -Tables TblEmployeeMst -Force
+
+Scaffold-DbContext "Server=(LocalDB)\MSSQLLocalDB;Database=JWTokenDB;Trusted_Connection=False;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir DTO -Tables TblEmployeeMst,TblRoleMst,TblUserRole -Force
+
+Scaffold-DbContext "Server=(LocalDB)\MSSQLLocalDB;Database=JWTokenDB;Trusted_Connection=False;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir DTO -Tables TblOTPMst,TblUserTokenMst,TblUserDocumentMst -Force
