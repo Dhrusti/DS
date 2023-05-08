@@ -1,0 +1,112 @@
+[
+  {
+    "Id": 1,
+    "Name": "Dashboard",
+    "Navigate": "/dashboard",
+    "AngleIcon": "Angleleft",
+    "Icon": "DashbordIcon",
+    "ParentId": 0,
+    "LevelId": 1,
+    "PermissionCode": "Dashboard",
+    "Active": "dashboard"
+  },
+  {
+    "Id": 2,
+    "Name": "Masters",
+    "Navigate": "",
+    "AngleIcon": "Angleleft",
+    "Icon": "MasterIcon",
+    "ParentId": 0,
+    "LevelId": 1,
+    "PermissionCode": "",
+    "Active": "masters"
+  },
+  {
+    "Id": 3,
+    "Name": "User",
+    "Navigate": "masters/user",
+    "AngleIcon": "Angleleft",
+    "Icon": "UserIcon",
+    "ParentId": 2,
+    "LevelId": 2,
+    "PermissionCode": "Aging_User_View",
+    "Active": "user"
+  },
+  {
+    "Id": 4,
+    "Name": "Permissions",
+    "Navigate": "",
+    "AngleIcon": "Angleleft",
+    "Icon": "PermissionsIcon",
+    "ParentId": 2,
+    "LevelId": 2,
+    "PermissionCode": "",
+    "Active": "permissions"
+  },
+  {
+    "Id": 5,
+    "Name": "Default Permissions",
+    "Navigate": "masters/permissions/default-permissions",
+    "AngleIcon": "Angleleft",
+    "Icon": "DefaultIcon",
+    "ParentId": 4,
+    "LevelId": 3,
+    "PermissionCode": "Default_Permission_View",
+    "Active": "default permissions"
+  },
+  {
+    "Id": 6,
+    "Name": "User Permissions",
+    "Navigate": "masters/permissions/user-Permissions",
+    "AngleIcon": "Angleleft",
+    "Icon": "UserPerIcon",
+    "ParentId": 4,
+    "LevelId": 3,
+    "PermissionCode": "",
+    "Active": "user permissions"
+  },
+  {
+    "Id": 7,
+    "Name": "Scheduling",
+    "Navigate": "",
+    "AngleIcon": "Angleleft",
+    "Icon": "SchedulingIcon",
+    "ParentId": 0,
+    "LevelId": 1,
+    "PermissionCode": "",
+    "Active": "scheduling"
+  },
+  {
+    "Id": 8,
+    "Name": "Appointment",
+    "Navigate": "scheduling/appointment",
+    "AngleIcon": "Angleleft",
+    "Icon": "AppointmentIcon",
+    "ParentId": 7,
+    "LevelId": 2,
+    "PermissionCode": "Scheduling_Appointment",
+    "Active": "appointment"
+  },
+  {
+    "Id": 9,
+    "Name": "Access",
+    "Navigate": "scheduling/access",
+    "AngleIcon": "Angleleft",
+    "Icon": "AccessIcon",
+    "ParentId": 7,
+    "LevelId": 2,
+    "PermissionCode": "Scheduling_Accept_Reject",
+    "Active": "access"
+  },
+  {
+    "Id": 10,
+    "Name": "Organization",
+    "Navigate": "master/organization",
+    "AngleIcon": "Angleleft",
+    "Icon": "OrganizationIcon",
+    "ParentId": 2,
+    "LevelId": 2,
+    "PermissionCode": "Aging_Organization_View",
+    "Active": "organization"
+  }
+]

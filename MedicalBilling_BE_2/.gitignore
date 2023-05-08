@@ -1,0 +1,15 @@
+/BussinessLayer/obj
+/DataLayer/obj
+/DTO/obj
+/Helper/obj
+/MedicalBillingManagementWebAPI/obj
+/ServiceLayer/obj
+/.vs
+/MedicalBillingManagementWebAPI/wwwroot/Logs
+/BussinessLayer/bin
+/DataLayer/bin
+/DTO/bin
+/Helper/bin
+/MedicalBillingManagementWebAPI/bin
+/ServiceLayer/bin
+/MedicalBillingManagementWebAPI/wwwroot/Files/Aging/FileCategoryhistory

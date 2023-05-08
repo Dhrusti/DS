@@ -1,0 +1,42 @@
+Read Me
+
+=======================================
+Install Nuget Before Run This Command :
+=======================================
+Microsoft.EntityFrameworkCore
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Design
+Microsoft.EntityFrameworkCore.Tools
+=======================================
+
+1. Scaffold-DbContext to update DB models from latest DB
+
+--Added by NP-------------------03-04-2023-----------
+
+Scaffold-DbContext "Server=.\SQLEXPRESS;user=sa;password=123;Database=MedicalBillingDB;Encrypt=False;Trusted_Connection=false;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Entities  -Tables AppointmentMst, CallTypeMst, ClientMst, DurationMst, ExtensionMst, PhysicianMst, RemarkMst, UserMst,UserTokenMst,ActivityLogMst,PatientEmailMst,RoleMst,NotificationMst -Force
+
+Scaffold-DbContext "Server=.\SQLEXPRESS;user=sa;password=123;Database=MedicalBillingDB;Encrypt=False;Trusted_Connection=false;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Entities  -Tables AppointmentMst, CallTypeMst, ClientMst, DurationMst, ExtensionMst, PhysicianMst, RemarkMst, UserMst,UserTokenMst,ActivityLogMst,PatientEmailMst,RoleMst,NotificationMst,PermissionMst,UserPermissions,DefaultPermissions -Force
+
+--Added by NP-------------------06-04-2023-----------START----------------------------
+Scaffold-DbContext "Server=.\SQLEXPRESS;user=sa;password=123;Database=MedicalBillingDB;Encrypt=False;Trusted_Connection=false;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Entities  -Tables AppointmentMst, CallTypeMst, ClientMst, DurationMst, ExtensionMst, PhysicianMst, RemarkMst, UserMst,UserTokenMst,ActivityLogMst,PatientEmailMst,RoleMst,NotificationMst,PermissionMst,UserPermissions,DefaultPermissions,OrganizationMst,CompanyMst,DepartmentMst -Force
+--Added by NP-------------------06-04-2023-----------END------------------------------
+
+--Added by NP-------------------24-04-2023-----------START----------------------------
+Scaffold-DbContext "Server=.\SQLEXPRESS;user=sa;password=123;Database=MedicalBillingDB;Encrypt=False;Trusted_Connection=false;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Entities  -Tables AppointmentMst, CallTypeMst, ClientMst, DurationMst, ExtensionMst, PhysicianMst, RemarkMst, UserMst,UserTokenMst,ActivityLogMst,PatientEmailMst,RoleMst,NotificationMst,PermissionMst,UserPermissions,DefaultPermissions,OrganizationMst,CompanyMst,DepartmentMst,ClaimStatusMst,FileCategoryHistoryMst,FileHistoryMst,FileDataMst,PayerMst,PatientMst,PolicyMst,ClaimMst,ServiceMst,ActionStatusMst -Force
+--Added by NP-------------------24-04-2023-----------END------------------------------
+
+--Added by DS-------------------28-04-2023-----------START----------------------------
+Scaffold-DbContext "Server=.\SQLEXPRESS;user=sa;password=123;Database=MedicalBillingDB;Encrypt=False;Trusted_Connection=false;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Entities  -Tables AppointmentMst, CallTypeMst, ClientMst, DurationMst, ExtensionMst, PhysicianMst, RemarkMst, UserMst,UserTokenMst,ActivityLogMst,PatientEmailMst,RoleMst,NotificationMst,PermissionMst,UserPermissions,DefaultPermissions,OrganizationMst,CompanyMst,DepartmentMst,ClaimStatusMst,FileCategoryHistoryMst,FileHistoryMst,FileDataMst,PayerMst,PatientMst,PolicyMst,ClaimMst,ServiceMst,ActionStatusMst, LinkMst -Force
+--Added by DS-------------------28-04-2023-----------END------------------------------
+
+--Added by NP-------------------02-05-2023-----------START----------------------------
+Scaffold-DbContext "Server=.\SQLEXPRESS;user=sa;password=123;Database=MedicalBillingDB;Encrypt=False;Trusted_Connection=false;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Entities  -Tables AppointmentMst, CallTypeMst, ClientMst, DurationMst, ExtensionMst, PhysicianMst, RemarkMst, UserMst,UserTokenMst,ActivityLogMst,PatientEmailMst,RoleMst,NotificationMst,PermissionMst,UserPermissions,DefaultPermissions,OrganizationMst,CompanyMst,DepartmentMst,ClaimStatusMst,FileCategoryHistoryMst,FileHistoryMst,FileDataMst,PayerMst,PatientMst,PolicyMst,ClaimMst,ServiceMst,ActionStatusMst,LinkMst,AgingMst -Force
+--Added by NP-------------------02-05-2023-----------END------------------------------
+
+
+
+    
+
+
+
+
