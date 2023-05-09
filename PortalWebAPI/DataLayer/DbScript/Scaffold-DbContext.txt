@@ -1,0 +1,3 @@
+1. Scaffold-DbContext to update DB models from latest DB
+
+Scaffold-DbContext "Server=localhost;Database=portalwebapi_db;Uid=root;Pwd=sa@123;" Pomelo.EntityFrameworkCore.MySql -UseDatabaseNames -OutputDir Entities -context DBContext -f
