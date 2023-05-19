@@ -1,0 +1,97 @@
+.label img {
+    width: 35%;
+}
+
+.label {
+    padding: 3% 0 0 40%;
+}
+
+.font {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.font span {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.hero {
+    display: flex;
+    text-align: center;
+    height: 55px;
+    padding: 15px 10px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(28, 28, 28, 0.08) 0px 2px 8px;
+    border: 1px solid rgb(232, 232, 232);
+    margin: 20px 22%;
+}
+
+select {
+    border: none;
+    margin: 0;
+}
+.drop-down{
+    border-right: 1px solid black;
+    margin-right: 13px;
+}
+.drop-down select{
+    width: 220px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.drop-down option{
+    padding-right: 5px;
+}
+.drop-down i {
+    padding-right: 5px;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    color: rgb(235, 134, 134);
+}
+.search-bar input{
+    border: none;
+    width: 250px;
+}
+.search-bar i {
+    font-size: 20px;
+    color: rgb(122, 121, 121);
+    padding: 0px 10px;
+}
+@media (max-width:780px){
+    .label img {
+        width: 20%;
+    }
+    .font span {
+        font-size: 10px;
+    }
+    .hero {
+        display: none;
+    }
+    .drop-down{
+        margin-right: 7px;
+    }
+    .drop-down select{
+        width: 120px;
+        font-size: 10px;
+        margin-right: 5px;
+    }
+    .drop-down option{
+        padding-right: 2px;
+    }
+    .drop-down i {
+        padding-right: 2px;
+        font-size: 10px;
+    }
+    .search-bar input{
+        width: 150px;
+    }
+    .search-bar i {
+        font-size: 10px;
+        color: rgb(122, 121, 121);
+        padding: 0px 5px;
+    }
+}

@@ -1,0 +1,60 @@
+.navbar {
+    padding: 0px 110px 0;
+    margin: 0 auto;
+}
+
+.mainbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo ul {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+ul {
+    margin-top: 30px;
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav a {
+    font-size: 1.3rem;
+    padding: 0 0 0 20px;
+    font-family: serif;
+}
+.openModalBtn {
+background-color: rgba(245, 240, 240, 0);
+border: none;
+outline: none;
+color: white;
+font-size: 17px;
+margin: 0px 5px;
+}
+
+@media (max-width:780px){
+    .navbar {
+        padding: 0px 50px 0;
+        margin: 0 auto;
+        font-size: 30px;
+    }
+    .logo ul {
+        font-size: 10px;
+        font-weight: 500;
+    }
+    ul {
+        margin-top: 10px;
+        list-style-type: none;
+    }
+    .nav a {
+        font-size: 1.0rem;
+        padding: 0 0 0 10px;
+        font-family: serif;
+    }
+}

@@ -1,0 +1,84 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(53, 51, 51, 0.753);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer {
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.712);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+  }
+  
+  .modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  
+  .modalContainer .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 20px 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .input-order {
+    text-align: center;
+    margin: 10px 0px;
+  }
+  .input-order input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    border: 2px solid rgb(163, 163, 163);
+  }
+  .link {
+    text-align: center;
+  }
+  .gapy{
+    color: rgb(241, 2, 2);
+    font-size: 30px;
+  }
+  

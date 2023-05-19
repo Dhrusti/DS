@@ -1,0 +1,265 @@
+{
+  "collections": [
+    {
+      "id": 1,
+      "name": "Trending This Week",
+      "places": "5 Places",
+      "image": "https://b.zmtcdn.com/data/collections/a9aef17423b92b3f8632c4b1887c2839_1647259955.jpg?output-format=webp",
+      "restaurant": [
+        {
+          "id": 1,
+          "name": "Starbucks Coffee",
+          "dianingstar": "3.5",
+          "dianing": "DINING",
+          "delivery": "DELIVERY",
+          "deliverystar": "4.1",
+          "item": "Cafe, Beverages, Fast Food, Desserts",
+          "location": "Nizampura , Vadodara",
+          "foodimg": "https://b.zmtcdn.com/data/pictures/6/19295956/f789aa3adc1ee6b1002f15c58a9470c3.jpg?output-format=webp&fit=around|318.75:231.25&crop=318.75:231.25;*,*",
+          "dishes": [
+            {
+              "id": 1,
+              "dishname": "Cappuccino",
+              "price": 222,
+              "dishimg": "https://perfectdailygrind.com/wp-content/uploads/2019/11/Cappuccino-1.png",
+              "content": "Cafe, Beverages, Fast Food, Desserts"
+            },
+            {
+              "id": 2,
+              "dishname": "Americano",
+              "price": 280,
+              "dishimg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHpkuOtQ5huAvK6Oh9-DLKv8dIV9g0pruVDA&usqp=CAU",
+              "content": "Cafe, Beverages, Fast Food, Desserts"
+            },
+            {
+              "id": 3,
+              "dishname": "Chococlate Cappuccino",
+              "price": 300,
+              "dishimg": "https://previews.123rf.com/images/igorklimov/igorklimov1109/igorklimov110900348/10693265-chocolate-cappuccino-time-cup-of-coffee.jpg",
+              "content": "Cafe, Beverages, Fast Food, Desserts"
+            },
+            {
+              "id": 4,
+              "dishname": "Caffe Latte",
+              "price": 415,
+              "dishimg": "https://thumbs.dreamstime.com/b/caffe-latte-rose-petals-delicious-cup-espresso-latte-served-rose-syrup-rose-petals-better-buzz-172409986.jpg",
+              "content": "Cafe, Beverages, Fast Food, Desserts"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Oven Magick",
+          "dianingstar": "2.9",
+          "dianing": "DINING",
+          "delivery": "DELIVERY",
+          "deliverystar": "4.0",
+          "item": "Bakery",
+          "location": "Alkapuri, Vadodara",
+          "foodimg": "https://b.zmtcdn.com/data/pictures/chains/1/3200051/ffea2c8d608991363c395c8aa7401ade.jpg?fit=around|318.75:231.25&crop=318.75:231.25;*,*"
+        },
+        {
+          "id": 4,
+          "name": "22nd Parallel",
+          "dianingstar": "2.9",
+          "dianing": "DINING",
+          "delivery": "DELIVERY",
+          "deliverystar": "4.0",
+          "item": "South Indian, Beverages",
+          "location": "Bhayli, Vadodara",
+          "foodimg": "https://b.zmtcdn.com/data/pictures/chains/0/3200090/fb930eee8a5aaf18ee8a4b4ec1a9b73b.jpg?output-format=webp&fit=around|318.75:231.25&crop=318.75:231.25;*,*"
+        },
+        {
+          "id": 5,
+          "name": "La Milano Pizzeria",
+          "dianingstar": "4.9",
+          "dianing": "DINING",
+          "delivery": "DELIVERY",
+          "deliverystar": "4.3",
+          "item": "Pizza , Pasta",
+          "location": "Subhanpura, Vadodara",
+          "foodimg": "https://b.zmtcdn.com/data/pictures/chains/7/19967197/364c47169e854c8b24f2e4d3784f4384.jpg?fit=around|318.75:231.25&crop=318.75:231.25;*,*"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Gujarati Thali",
+      "places": "3 Places",
+      "image": "https://b.zmtcdn.com/data/collections/633e9a523bc441acf1dc13a7899b1c90_1618312187.jpg?output-format=webp"
+    },
+    {
+      "id": 3,
+      "name": "Best Pizza Places In Town",
+      "places": "4 Places",
+      "image": "https://b.zmtcdn.com/data/collections/178b0ddc2dcb90698f3e25bdaf12142d_1618469439.jpg?output-format=webp"
+    },
+    {
+      "id": 4,
+      "name": "Sweet Tooth",
+      "places": "5 Places",
+      "image": "https://b.zmtcdn.com/data/collections/cf3ee1808f7c9233819dbcf20a8ca077_1647261043.jpg?output-format=webp"
+    }
+  ],
+  "places": [
+    {
+      "id": 1,
+      "placesname": "Alkapuri",
+      "placesnum": "297 Places"
+    },
+    {
+      "id": 2,
+      "placesname": "Vadiwadi",
+      "placesnum": "122 Places"
+    },
+    {
+      "id": 3,
+      "placesname": "Diwalipura",
+      "placesnum": "412 Places"
+    },
+    {
+      "id": 4,
+      "placesname": "Fatehgunj",
+      "placesnum": "175 Places"
+    },
+    {
+      "id": 5,
+      "placesname": "Akota",
+      "placesnum": "274 Places"
+    },
+    {
+      "id": 6,
+      "placesname": "Sayajigunj",
+      "placesnum": "178 Places"
+    },
+    {
+      "id": 7,
+      "placesname": "Karelibaug",
+      "placesnum": "359 Places"
+    },
+    {
+      "id": 8,
+      "placesname": "Subhanpura",
+      "placesnum": "226 Places"
+    },
+    {
+      "id": 9,
+      "placesname": "Bhayli",
+      "placesnum": "150 Places"
+    }
+  ],
+  "signup": [
+    {
+      "email": "vraj@gmail.com",
+      "password": "1234",
+      "name": "vraj",
+      "phonenumber": "9313997554",
+      "country": "india",
+      "id": 1
+    },
+    {
+      "name": "vraj",
+      "email": "yash@gmail.com",
+      "password": "1234",
+      "phonenumber": "1234567890",
+      "country": "india",
+      "id": 2
+    },
+    {
+      "name": "vraj",
+      "email": "yash@gmail.com",
+      "password": "1234",
+      "phonenumber": "1234567890",
+      "country": "india",
+      "id": 3
+    },
+    {
+      "name": "vraj",
+      "email": "yash@gmail.com",
+      "password": "1234",
+      "phonenumber": "1234567890",
+      "country": "india",
+      "id": 4
+    },
+    {
+      "name": "vraj",
+      "email": "yash@gmail.com",
+      "password": "1234",
+      "phonenumber": "1234567890",
+      "country": "india",
+      "id": 5
+    },
+    {
+      "name": "vraj",
+      "email": "yash@gmail.com",
+      "password": "1234",
+      "phonenumber": "1234567890",
+      "country": "india",
+      "id": 6
+    },
+    {
+      "name": "vraj",
+      "email": "yash@gmail.com",
+      "password": "1234",
+      "phonenumber": "1234567890",
+      "country": "india",
+      "id": 7
+    },
+    {
+      "name": "vraj",
+      "email": "yash@gmail.com",
+      "password": "1234",
+      "phonenumber": "1234567890",
+      "country": "india",
+      "id": 8
+    },
+    {
+      "name": "vraj",
+      "email": "yash@gmail.com",
+      "password": "1234",
+      "phonenumber": "1234567890",
+      "country": "india",
+      "id": 9
+    },
+    {
+      "name": "vraj",
+      "email": "yash@gmail.com",
+      "password": "1234",
+      "phonenumber": "1234567890",
+      "country": "india",
+      "id": 10
+    },
+    {
+      "name": "vraj",
+      "email": "yash@gmail.com",
+      "password": "1234",
+      "phonenumber": "1234567890",
+      "country": "india",
+      "id": 11
+    },
+    {
+      "name": "vraj",
+      "email": "yash@gmail.com",
+      "password": "1234",
+      "phonenumber": "12345678",
+      "country": "india",
+      "id": 12
+    },
+    {
+      "name": "vraj",
+      "email": "yash@gmail.com",
+      "password": "1234",
+      "phonenumber": "12345678901",
+      "country": "india",
+      "id": 13
+    },
+    {
+      "name": "vraj",
+      "email": "yash@gmail.com",
+      "password": "1234",
+      "phonenumber": "1234567890",
+      "country": "india",
+      "id": 14
+    }
+  ]
+}
